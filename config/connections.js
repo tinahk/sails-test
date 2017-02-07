@@ -32,6 +32,14 @@ module.exports.connections = {
     adapter: 'sails-disk'
   },
 
+  sails_financial_mysql: {
+    adapter: 'sails-mysql',
+    host: 'localhost',
+    user: 'sails_financial',
+    password: 'root',
+    database: 'sails_financial'
+  }
+
   /***************************************************************************
   *                                                                          *
   * MySQL is the world's most popular relational database.                   *
